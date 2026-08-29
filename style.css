@@ -1,0 +1,78 @@
+/* 2006 Legacy Roblox Wiki Styling */
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Arial", "Helvetica Neue", sans-serif; /* The official legacy font stack */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Primary Link Styling */
+a {
+    color: #0022CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Classic Light Blue Header Container */
+.wiki-header {
+    background-color: #EAF2FF;
+    border: 2px solid #A2C4FF; /* The iconic light blue stroke */
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.wiki-header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #000000;
+}
+
+/* Sidebar and Main content block wrappers */
+.wiki-container {
+    display: flex;
+    gap: 20px;
+}
+
+.wiki-sidebar {
+    width: 200px;
+    background-color: #F5F9FF;
+    border: 1px solid #B8D2FF;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.wiki-main {
+    flex: 1;
+    background-color: #FFFFFF;
+    border: 1px solid #B8D2FF;
+    padding: 20px;
+}
+
+/* Section Subheadings styled like old block alerts */
+h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #A2C4FF;
+    padding-bottom: 3px;
+    margin-top: 25px;
+}
+
+/* Social link table list stroke effects */
+.link-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.link-table th {
+    background-color: #EAF2FF;
+    border: 1px solid #A2C4FF;
+    padding: 8px;
+    text-align: left;
+}
+.link-table td {
+    border: 1px solid #B8D2FF;
+    padding: 8px;
+}
